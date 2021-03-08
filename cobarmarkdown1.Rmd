@@ -1,0 +1,14 @@
+---
+title: "Tutorial membangun matriks dengan RStudio"
+author: "Adinda Enggar Wicaksana"
+date: "8 Februari 2021"
+output: html_document
+---
+
+Cara membuat Matriks dengan membuat fungsi matriks(), didalam nya kita isi dengan data sebanyak 25, yang terdiri dari 1 sampai 25, yang mana terdapat baris yang ditunjukkan nrow=5 dan, ditunjukkan kolom ncol = 5
+
+
+```{r}
+A <- matrix(data = 1:25, nrow = 5, ncol = 5, byrow = TRUE)
+A
+```
